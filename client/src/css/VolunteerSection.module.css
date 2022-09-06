@@ -1,0 +1,1129 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.profileSymbolIcon {
+  position: relative;
+  width: 143px;
+  height: 143px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.uploadAPhoto {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 139px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.sedDoEiusmod {
+  margin: 0;
+}
+.johnDoeH5,
+.loremIpsumDolorSitAmetCo {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.loremIpsumDolorSitAmetCo {
+  line-height: 20px;
+  width: 239px;
+  height: 72px;
+}
+.johnDoeH5 {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: inherit;
+  color: #484848;
+  text-align: left;
+  width: 109px;
+  height: 26px;
+}
+.frameDiv1,
+.frameDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv2 {
+  gap: 39px;
+  text-align: center;
+  color: #9a9a9a;
+}
+.frameDiv1 {
+  align-self: stretch;
+  height: 529px;
+  flex-shrink: 0;
+  padding: 34px 0 0;
+  box-sizing: border-box;
+  gap: 57px;
+}
+
+.userFrameArticle {
+  border-radius: 12px 0 0 12px;
+  background-color: #f5eacd;
+  height: 529px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #484848;
+  font-family: Montserrat;
+}
+.helloVolunteerH4,
+.weWelcomeYouInOurEndevour {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.helloVolunteerH4 {
+  font-weight: 700;
+  font-size: inherit;
+  font-family: inherit;
+  height: 44px;
+  flex-shrink: 0;
+}
+.weWelcomeYouInOurEndevour {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.frameDiv4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.skillsH6 {
+  margin: 0;
+  font-weight: 600;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  width: 302px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.skillsDropDownDiv,
+.skillsH6 {
+  position: relative;
+ 
+}
+.skillsDropDownDiv{
+   /* border: 2px solid red; */
+   width: 350px;
+   background-color: white;
+}
+.skillsDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.cancelP {
+  margin: 0;
+  position: absolute;
+  top: 7px;
+  left: 35px;
+  font-weight: 700;
+  display: inline-block;
+  width: 61px;
+  height: 20px;
+}
+.cancelDiv,
+.uiltimesIcon {
+  height: 30px;
+  overflow: hidden;
+}
+.uiltimesIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+}
+.cancelDiv {
+  position: relative;
+  width: 96px;
+  flex-shrink: 0;
+}
+.saveB {
+  position: absolute;
+  width: 28.78%;
+  top: 18px;
+  right: 36.33%;
+  left: 34.89%;
+  font-size: 16px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #908db9;
+  position: relative;
+  border-radius: 40px;
+  width: 139px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.button1:hover,
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.buttonsDiv,
+.frameDiv5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttonsDiv {
+  width: 255px;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.frameDiv5 {
+  align-self: stretch;
+  gap: 193px;
+  font-size: 16px;
+  color: #484848;
+}
+.largeTitleH4 {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 36px;
+  font-family: inherit;
+}
+.bodyTextP,
+.howDoWeDo,
+.largeTitleH4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.bodyTextP {
+  font-size: 16px;
+  letter-spacing: -0.06em;
+  line-height: 28px;
+  font-weight: 600;
+}
+.howDoWeDo {
+  font-weight: 700;
+  font-size: inherit;
+  font-family: inherit;
+}
+.onlyAFew {
+  letter-spacing: 0.05em;
+}
+.volunteerHelperAs {
+  letter-spacing: -0.02em;
+}
+.offerAnythingFromHelpToJo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 39px;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameSection,
+.textDiv {
+  font-family: Montserrat;
+  display: flex;
+  align-items: center;
+}
+.frameSection {
+  align-self: stretch;
+  border-radius: 30px;
+  background-color: #908db9;
+  flex-direction: column;
+  padding: 50px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 29px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.textDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 30.5px);
+  right: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #342e37;
+  text-align: left;
+}
+.subheadDiv {
+  position: absolute;
+  top: 68px;
+  left: 32px;
+  width: 307px;
+  height: 61px;
+}
+.inputTextField,
+.inputTextField1 {
+  border: 0;
+  background-color: transparent;
+  border: 2px solid greenyellow;
+}
+.fieldDiv,
+.selectDiv {
+  position: absolute;
+  top: 133px;
+  left: 35.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selectDiv {
+  top: 237px;
+  align-items: flex-end;
+}
+.autocompleteStandard,
+.autocompleteStandard1,
+.autocompleteStandard2 {
+  position: absolute;
+  top: 303px;
+  left: 35.5px;
+}
+.autocompleteStandard1 {
+  top: 369px;
+}
+.autocompleteStandard2 {
+  top: 420px;
+}
+.datePickerDiv {
+  flex: 1;
+}
+.fieldsDiv {
+  position: absolute;
+  top: 482px;
+  left: 35.5px;
+  width: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+/* .availabilityDiv, */
+.translationAndHelpInformati,
+.usedToHostPeopleOrWorksho {
+  font-weight: 600;
+  position: absolute;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Montserrat;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+/* .availabilityDiv {
+  position: absolute;
+  top: 600px;
+  left: 32.5px;
+  color: #9a9ea5;
+  width: 177px;
+  height: 38px;
+  border: 3px solid red;
+} */
+.translationAndHelpInformati,
+.usedToHostPeopleOrWorksho {
+  margin: 0;
+  top: 28px;
+  left: 36px;
+  color: #342e37;
+  width: 340px;
+}
+.usedToHostPeopleOrWorksho {
+  top: 60px;
+  left: 33px;
+  letter-spacing: -0.04em;
+  line-height: 16px;
+  font-weight: 300;
+  width: 314px;
+  height: 29px;
+}
+/* .userDataForm {
+  position: absolute;
+  top: calc(50% - 400px);
+  left: calc(50% - 254px);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 4px solid #141515;
+  box-sizing: border-box;
+  width: 508px;
+  height: 678px;
+} */
+.buttonIconGhostOff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.captionText,
+.linkP {
+  margin: 0;
+  position: absolute;
+  top: 4px;
+  left: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+.linkP {
+  left: 141px;
+  font-weight: 500;
+  color: #908db9;
+}
+.agreementDiv {
+  position: absolute;
+  top: 766px;
+  left: 0;
+  width: 256px;
+  height: 32px;
+}
+.step3Form {
+  position: relative;
+  width: 508px;
+  height: 858px;
+  flex-shrink: 0;
+}
+.sendRequestB {
+  position: absolute;
+  width: 80.51%;
+  top: 18px;
+  right: 9.97%;
+  left: 9.52%;
+  font-size: 16px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  height: 24px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #908db9;
+  position: relative;
+  border-radius: 40px;
+  width: 220.7px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.translationFormSection,
+.userVolunteerAboutSectionArticle {
+  border-radius: 12px;
+  background-color: #f5eacd;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 56px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.userVolunteerAboutSectionArticle {
+  flex: 1;
+  border-radius: 0 12px 12px 12px;
+  background-color: #ead49c;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  padding: 74px 41px;
+  gap: 129px;
+  text-align: left;
+  font-size: 30px;
+  color: #706b5d;
+  font-family: Montserrat;
+}
+.frameDiv,
+.volunteerSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.volunteerSection {
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+ 
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 59px 89px;
+  box-sizing: border-box;
+}
+.dropdownSelect{
+  width: 12%;
+  /* border: 2px solid gray; */
+  background-color: white;
+  border: none;
+}
+/* ACOMODATION FORM */
+
+
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.textDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 30.5px);
+  right: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #342e37;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.subheadDiv {
+  position: absolute;
+  top: 68px;
+  left: 32px;
+  width: 307px;
+  height: 61px;
+}
+.inputTextField {
+  border: 0;
+  background-color: transparent;
+}
+.fieldDiv,
+.selectDiv {
+  position: absolute;
+  top: 133px;
+  left: 35.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selectDiv {
+  top: 237px;
+  align-items: flex-end;
+  /* border: 2px solid red; */
+}
+.autocompleteStandard,
+.autocompleteStandard1 {
+  position: absolute;
+  top: 303px;
+  left: 35.5px;
+}
+.autocompleteStandard1 {
+  top: 369px;
+}
+.datePickerDiv {
+  flex: 1;
+}
+.fieldsDiv {
+  position: absolute;
+  top: 482px;
+  left: 35.5px;
+  width: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.accomodationInformationForm,
+.availabilityDiv,
+.usedToHostPeopleAndPropos {
+  font-weight: 600;
+  position: absolute;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Montserrat;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.availabilityDiv {
+  top: 435px;
+  left: 32.5px;
+  color: #9a9ea5;
+  width: 177px;
+  height: 38px;
+}
+.accomodationInformationForm,
+.usedToHostPeopleAndPropos {
+  margin: 0;
+  top: 29px;
+  left: 35px;
+  color: #342e37;
+  width: 307px;
+}
+.usedToHostPeopleAndPropos {
+  top: 60px;
+  left: 33px;
+  letter-spacing: -0.04em;
+  line-height: 16px;
+  font-weight: 300;
+  width: 314px;
+  height: 29px;
+}
+.userDataForm {
+  position: absolute;
+  top: calc(50% - 396px);
+  left: calc(50% - 254px);
+  border-radius: 8px;
+  background-color: #fff;
+  /* border: 4px solid #141515; */
+    box-sizing: border-box;
+  width: 508px;
+  height: 674px;
+}
+.buttonIconGhostOff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.captionText,
+.linkP {
+  margin: 0;
+  position: absolute;
+  top: 4px;
+  left: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+.linkP {
+  left: 141px;
+  font-weight: 500;
+  color: #908db9;
+}
+.agreementDiv {
+  position: absolute;
+  top: 766px;
+  left: 0;
+  width: 256px;
+  height: 32px;
+}
+.step3Form {
+  position: relative;
+  width: 508px;
+  height: 858px;
+  flex-shrink: 0;
+}
+.sendRequestB {
+  position: absolute;
+  width: 80.51%;
+  top: 18px;
+  right: 9.97%;
+  left: 9.52%;
+  font-size: 16px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  height: 24px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #908db9;
+  position: relative;
+  border-radius: 40px;
+  width: 220.7px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.accomodationFormSection {
+  position: relative;
+  border-radius: 12px;
+  background-color: #f5eacd;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 56px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Job form */
+
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.textDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 30.5px);
+  right: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #342e37;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.subheadDiv {
+  position: absolute;
+  top: 68px;
+  left: 32px;
+  width: 307px;
+  height: 61px;
+}
+.inputTextField1 {
+  top: 150px;
+  border: 0;
+  background-color: transparent;
+}
+.fieldDiv,
+
+.selectDiv {
+  position: absolute;
+  top: 133px;
+  left: 35.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fieldDiv1{
+  position: absolute;
+  top: 133px;
+  left: 35.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 2px solid red; */
+}
+.selectDiv {
+  top: 237px;
+  align-items: flex-end;
+}
+.autocompleteStandard,
+.autocompleteStandard4,
+.autocompleteStandard3,
+.autocompleteStandard1 {
+  position: absolute;
+  top: 303px;
+  left: 35.5px;
+}
+.autocompleteStandard1 {
+  top: 369px;
+}
+.autocompleteStandard3 {
+  top: 333px;
+}
+.autocompleteStandard4 {
+  top: 380px;
+}
+.datePickerDiv {
+  flex: 1;
+}
+.fieldsDiv {
+  position: absolute;
+  top: 482px;
+  left: 35.5px;
+  width: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.availabilityDiv,
+.jobInformationForm,
+.usedToProposeJobOffersOr {
+  font-weight: 700;
+  position: absolute;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Montserrat;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.availabilityDiv {
+  top: 435px;
+  left: 32.5px;
+  color: #9a9ea5;
+  width: 177px;
+  height: 38px;
+}
+.jobInformationForm,
+.usedToProposeJobOffersOr {
+  margin: 0;
+  top: 29px;
+  left: 35px;
+  color: #342e37;
+  width: 350px;
+}
+.usedToProposeJobOffersOr {
+  top: 60px;
+  left: 33px;
+  letter-spacing: -0.04em;
+  line-height: 16px;
+  font-weight: 500;
+  width: 400px;
+  height: 29px;
+  /* border: 2px solid red; */
+}
+/* .userDataForm {
+  position: absolute;
+  top: calc(50% - 396px);
+  left: calc(50% - 254px);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e2e4e5;
+  box-sizing: border-box;
+  width: 508px;
+  height: 674px;
+} */
+.buttonIconGhostOff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.captionText,
+.linkP {
+  margin: 0;
+  position: absolute;
+  top: 4px;
+  left: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+.linkP {
+  left: 141px;
+  font-weight: 500;
+  color: #908db9;
+}
+.agreementDiv {
+  position: absolute;
+  top: 766px;
+  left: 0;
+  width: 256px;
+  height: 32px;
+}
+.step3Form {
+  position: relative;
+  width: 508px;
+  height: 858px;
+  flex-shrink: 0;
+  /* border: 3px solid green; */
+}
+.sendRequestB {
+  position: absolute;
+  width: 80.51%;
+  top: 18px;
+  right: 9.97%;
+  left: 9.52%;
+  font-size: 16px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  height: 24px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #908db9;
+  position: relative;
+  border-radius: 40px;
+  width: 220.7px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.jobFormSection {
+  position: relative;
+  border-radius: 12px;
+  background-color: #f5eacd;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 56px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputFieldDiv{
+  width: 85%;
+  height: 35px;
+  margin-top:120px;
+  border: none;
+  border-bottom: 1.2px solid gray;
+  margin-left: 37px;
+  /* border-radius: 5px; */
+
+  padding-left: 0px;
+}
+.inputFieldDivContact{
+  width: 85%;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid gray;
+  /* border: 3px solid gray; */
+  margin-left: 37px;
+  /* border-radius: 5px; */
+
+  margin-top: 7px;
+  padding-left: 0px;
+}
+.inputComponentTextarea {
+  /* border: 1px solid #f50505; */
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #e5e5e5;
+  box-sizing: border-box;
+  /* position: relative; */
+  width: 343px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+
+.formContainer{
+  width: 50%;
+  padding: 5% 0% 10% 0%;
+  background-color: wheat;
+}
+.accommodationForm,
+.jobForm,
+.helpForm{
+padding: 20px;
+padding-top: 70px;
+padding-bottom: 70px;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin:  auto;
+  border-radius: 10px;
+
+  box-shadow: 4px 0px 10px 1px rgba(0, 0, 0, 0.277);
+  /* border: 2px solid red; */
+
+}
+.contactPersonName,
+.contactPersonNumber,
+.contactPersonEmail,
+.accommodationSelectDiv,
+.jobSelectDiv,
+.helpSelectDiv,
+.accommodationStreetDate,
+.jobStartDate{
+  width: 85%;
+  margin: 0px auto;
+  margin-top: 8px;
+ align-content: center;
+ font-size: 10px;
+ border-radius: 4px;
+ border: none;
+
+
+}
+.contactPersonName,
+.contactPersonNumber,
+.contactPersonEmail{
+  width: 84%;
+  padding: 18px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: none;background-color: #f3efef;
+ box-shadow: #342e37 0px 0px 2px 0px;
+}
+.accommodationSelect,
+.jobSelect,
+.helpSelect,
+.accommodationStreet,
+.jobStreet,
+.accommodationDetails,
+.jobDetails,
+.helpDetails,
+.accommodationTitles,
+.jobTitles,
+.helpTitles,
+.accommodationPersonsNumber,
+.jobPersonsNumber,
+.accommodationStreetDate,
+.jobStartDate,
+.ContactPersonAvailable,
+.accommodationStreetEnd,
+.jobEndDate{
+  width: 49%;
+  margin: 5px auto;
+  padding: 18px;
+   align-content: center;
+ border-radius: 4px;
+ font-size: 13px;
+ border: none;background-color: #f3efef;
+ border: none;
+ 
+}
+.accommodationSelect,.accommodationStreet,.accommodationDetails,.accommodationPersonsNumber,.accommodationStreetEnd, .accommodationStreetDate{
+  box-shadow: #342e37 0px 0px 2px 0px;
+
+}
+.accommodationSelectDiv,
+.jobSelectDiv,
+.helpSelectDiv{
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+.termsOfUse{
+  font-size: 18px;
+}
+.checkBoxBox{
+  width: 20px;
+  
+}
+.formButton
+{
+  color: white;
+  margin-top: 0px;
+  padding: 10px;
+  width: 100px;
+  font-size: 13px;
+  border-radius: 30px;
+  border: none;
+ cursor: pointer;
+ background-color:  #908DB9;
+ margin-left: 90%;
+}
+.accommodationTitles,
+.jobTitles,
+.helpTitles{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px;
+  border: none;
+  border: none;background-color: transparent;
+}
+.formFileButton
+{
+margin-top: 30px;
+width: 400px;
+padding: 10px;
+}

@@ -1,0 +1,39 @@
+.main_container {
+    
+   text-align: center;
+  
+    flex-direction: row;
+  margin-top: 10px;
+  
+  
+   
+}
+
+.img_card{
+  background-color: #ead49c;
+  width: 70%;
+  margin-left: 15%;
+  
+  
+}
+.place{
+  margin: 0 auto;
+}
+.acc_info {
+  background-color: #f5eacd;
+  display: flex;
+  height: 300px;
+}
+.contact_info {
+  justify-content: flex-end;
+  margin-top: 190px;
+  margin-right: 10px;
+ 
+}
+.title_acc{
+  text-align: center;
+  margin-top: 40px;
+}
+.availability {
+  margin-left: 10px;
+}

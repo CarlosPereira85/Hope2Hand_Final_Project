@@ -1,0 +1,124 @@
+.theWebDeveloperTeamBehind {
+
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+
+}
+.aboutTeamDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 71px 93px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.felixIcon {
+  border-radius: 200px;
+  height: 163px;
+}
+.carlosIcon,
+.felixIcon,
+.gerald1Icon,
+.waisIcon {
+  position: relative;
+  width: 163px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.waisIcon {
+  border-radius: 200px;
+  height: 162.55px;
+}
+.carlosIcon,
+.gerald1Icon {
+  height: 163px;
+}
+.gerald1Icon {
+  border-radius: 200px;
+  height: 154.65px;
+}
+.picturesDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 86px;
+}
+.felixChirinosP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.backendEngineerP {
+  margin: 0;
+}
+.felixChirinosBackendEngine {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.felixP,
+.textDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.felixP {
+  margin: 0;
+  justify-content: flex-start;
+}
+.textDiv {
+  justify-content: center;
+  gap: 119px;
+  font-size: 14px;
+  color: #484848;
+}
+.visitOurTeamOrganizationAt {
+  margin: 0;
+  position: relative;
+  line-height: 82px;
+  font-weight: 400;
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 30px;
+
+}
+.qRh2hIcon {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.infoDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 38px;
+  text-align: left;
+  color: #908db9;
+  font-family: "DM Sans";
+}
+.aboutTeamSection {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 708px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 91px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #706b5d;
+  font-family: Montserrat;
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  margin-bottom: 7%;
+}

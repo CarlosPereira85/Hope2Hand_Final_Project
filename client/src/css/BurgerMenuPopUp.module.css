@@ -1,0 +1,135 @@
+.menuH4 {
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  width: 139px;
+  height: 33px;
+  flex-shrink: 0;
+  /* border: 3px solid red; */
+  padding-top: 3px;
+  /* background-color: antiquewhite; */
+padding-left: 5px;
+}
+.ellipseIcon {
+  position: absolute;
+  top: -5px;
+  right: -4.5px;
+  width: 100%;
+  height:100%;
+  /* border: 2px solid palevioletred */
+}
+.lineIcon,
+.lineIcon1 {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 14.17px;
+  height: 14.17px;
+  /* border: 2px solid rgb(241, 0, 80) */
+}
+.lineIcon1 {
+  right: 10px;
+}
+.closeButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  overflow: hidden;
+  /* border: 2px solid green; */
+}
+.frameDiv {
+  padding-bottom: 4px;
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid goldenrod; */
+  border-bottom: 3px solid black;
+
+}
+.aboutUsButton,
+.contactUsButton,
+.findSupportButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #484848;
+  text-align: center;
+  display: inline-block;
+  width: 113px;
+}
+.aboutUsButton:hover,
+.contactUsButton:hover,
+.findSupportButton:hover {
+  color: #908db9;
+}
+.aboutUsButton,
+.contactUsButton {
+  width: 81px;
+}
+.contactUsButton {
+  width: 98px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.burgerMenuPopUpDiv,
+.headerNavigations {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.headerNavigations {
+  text-decoration: none;
+  width: 154px;
+  height: 80%;
+  flex-shrink: 0;
+  padding: 5px 0 0;
+  justify-content: flex-start;
+  gap: 46px;
+  /* border: 2px solid rgb(21, 144, 58); */
+}
+.burgerMenuPopUpDiv {
+  position: relative;
+  border-radius: 10px;
+  background-color: #ead49c;
+  /* box-shadow: 0 0 8px rgba(194, 198, 204, 0.6); */
+  padding: 20px 10px 10px;
+  /* justify-content: right; */
+  gap: 20px;
+  /* max-width: 90%;
+  max-height: 90%; */
+  overflow: visible;
+  text-align: left;
+  font-size: 20px;
+  color: #484848;
+  font-family: Montserrat;
+  /* border: 2px solid red; */
+  /* height: 40%; */
+  padding-bottom: 5%;
+  /* behavior: unset; */
+}
+@media screen and (min-width: 1200px) {
+  .headerNavigations {
+    display: none;
+  }
+  /* .headerNavigations{
+    height: 40%;
+    padding-bottom: 0px;
+  } */
+}

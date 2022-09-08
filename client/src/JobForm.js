@@ -138,7 +138,7 @@ const JobForm = () => {
           </div>
         </form>
         <button className={styles.button} autoFocus>
-          <b className={styles.sendRequestB}>{`Send Infos  `}</b>
+          <b className={styles.sendRequestB}>{`Send Infos.  `}</b>
         </button>
       </section>
     </LocalizationProvider>

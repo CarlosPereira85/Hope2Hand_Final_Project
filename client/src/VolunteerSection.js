@@ -133,6 +133,7 @@ export const VolunteerSection = () => {
     setStartDateHelp("");
     setEndDateHelp("");
     setHelpType("");
+    
   };
 
 
@@ -302,8 +303,8 @@ const userName =  JSON.parse(localStorage.getItem("profile")).userName;
                     <option>Hostel</option>
                     <option>Chalet</option>
                     <option>Garage</option>
-                    <option>Cottages</option>
                   </select>
+                    
                   <select
                     onChange={(e) => setNumberOfPersons(e.target.value)}
                     className={styles.accommodationPersonsNumber}>

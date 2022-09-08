@@ -10,7 +10,7 @@ const GetUserPost = () => {
     const [details, setDetails] = useState();
 
     
-    const API = axios.create({ baseURL: "http://localhost:5000" });
+    const API = axios.create({ baseURL: "https://teamhope2hand.herokuapp.com" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {

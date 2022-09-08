@@ -26,21 +26,21 @@ export const ProfileSection = () => {
 
 
   const getRequestHandler = async () => {
-    const response = await axios.get("http://localhost:5000/getaccomodations");
+    const response = await axios.get("https://teamhope2hand.herokuapp.com/getaccomodations");
     console.log(response.data.data);
     setDetails(response.data.data);
     setRequest("GET");
   };
 
   const getRequestHandlerHelp = async () => {
-    const response = await axios.get("http://localhost:5000/gethelper");
+    const response = await axios.get("https://teamhope2hand.herokuapp.com/gethelper");
     console.log(response.data.data);
     setDetailsHelp(response.data.data);
     setRequest("GET");
   };
 
   const getRequestHandlerJob = async () => {
-    const response = await axios.get("http://localhost:5000/getjob");
+    const response = await axios.get("https://teamhope2hand.herokuapp.com/getjob");
     console.log(response.data.data);
     setDetailsJob(response.data.data);
     setRequest("GET");

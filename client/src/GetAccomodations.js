@@ -13,7 +13,7 @@ const GetAccomodations = () => {
 
 
   const getRequestHandler = async () => {
-    const response = await axios.get("http://localhost:5000/getaccomodations");
+    const response = await axios.get("https://teamhope2hand.herokuapp.com/getaccomodations");
     console.log(response.data.data);
     setDetails(response.data.data);
     setRequest("GET");

@@ -53,16 +53,17 @@ const response = await API.delete(`/deleteuserjob/${id}`);
      };
       return (
         <>
-        
+        <div className={styles.accommodationMainContainer}>
+        <h4 className={styles.title}>Job Offer</h4>
         {/* <PostStatus/> */}
        
           {request 
             ? details.map((value) => {
                 return (
-                  <div className={styles.accommodationMainContainer}>
+                  
                 
                     <div className={styles.helperContainer}  key={value._id}>
-                          <h4 className={styles.title}>Job Offer</h4>  
+                            
                     <div  className={styles.detailsContainer}>
                     <div className={styles.accommodationDetails}>
                     <p>Job Title: <span>{value.jobList}</span>  </p>
@@ -92,12 +93,12 @@ const response = await API.delete(`/deleteuserjob/${id}`);
                       
                     </div>
                   </div>
-                  </div>
+                 
                 );
               })
             : ""}
       
-        
+      </div>
         
         </>
       );

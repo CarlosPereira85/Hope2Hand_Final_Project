@@ -56,12 +56,14 @@ const response = await API.delete(`/deleteuserhelp/${id}`);
         <>
         
         {/* <PostStatus/> */}
+        
+        <div className={styles.accommodationMainContainer}>
+                  <h4 className={styles.title}>Help</h4>
       
           {request 
             ? details.map((value) => {
                 return (
-                  <div className={styles.accommodationMainContainer}>
-                  <h4 className={styles.title}>Help</h4>     
+                      
                   <div className={styles.helperContainer} key={value._id}>
                    <div  className={styles.detailsContainer}> 
                     <div className={styles.accommodationDetails}>
@@ -94,7 +96,7 @@ const response = await API.delete(`/deleteuserhelp/${id}`);
 
 
 
- </div>
+ 
 
 
                   
@@ -102,7 +104,7 @@ const response = await API.delete(`/deleteuserhelp/${id}`);
               })
             : ""}
        
-        
+       </div>
         
         </>
       );

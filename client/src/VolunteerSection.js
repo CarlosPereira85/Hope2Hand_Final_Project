@@ -253,7 +253,7 @@ const userName =  JSON.parse(localStorage.getItem("profile")).userName;
 
             {volenForm === "accommodation" ? (
 
-              <form method="post" className={styles.accommodationForm} >
+              <form className={styles.accommodationForm} >
                 <input
                   onChange={(e) => setContactPerson(e.target.value)}
                   className={styles.contactPersonName}

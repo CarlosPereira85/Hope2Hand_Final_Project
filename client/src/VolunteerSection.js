@@ -41,7 +41,7 @@ export const VolunteerSection = () => {
   const [numberOfPersons, setNumberOfPersons] = useState(1);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [lastActive, setLastActive] = useState("");
+  
   const [message, setMessage] = useState(false);
   const [image, setImage] = useState([]);
 
@@ -76,7 +76,7 @@ export const VolunteerSection = () => {
   const createAccomodation = async () => {
     const data = { image,address, contactPerson, contactNumber, contactEmail, accomodationType, numberOfPersons, city, startDate, endDate };
 
-    const API = axios.create({ baseURL: "http://localhost:5000.com" });
+    const API = axios.create({ baseURL: "http://localhost:5000" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {
@@ -151,7 +151,7 @@ export const VolunteerSection = () => {
       endDateJob};
     
 
-    const API = axios.create({ baseURL: "http://localhost:5000.com"});
+    const API = axios.create({ baseURL: "http://localhost:5000"});
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {

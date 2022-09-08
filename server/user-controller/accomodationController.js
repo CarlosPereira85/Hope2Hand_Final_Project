@@ -12,6 +12,7 @@ export const postAccomodation = async (req, res) => {
         if (!user) {
             return res.status(404).json({ msg: "User not found" });
         }
+        console.log(req.body);
      
         const accomodation = new accomodationFormModel({
             

@@ -8,6 +8,7 @@ export const postHelp = async (req, res) => {
 
 
     const { contactEmailHelp, addressHelp, contactPersonHelp, TypeOfLanguageHelp,orgHelp,startDateHelp,endDateHelp, helpType, contactNumberHelp, cityHelp } = req.body;
+    
     try {
         const user = await usersModel.findById(req.user.id);
         if (!user) {

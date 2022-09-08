@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 
 export const postJob = async (req, res) => {
 
-    //console.log("Jobs:", req.body);
+    console.log("Jobs:", req.body);
 
     const {
         contactEmailJob,
@@ -20,12 +20,14 @@ export const postJob = async (req, res) => {
         salaryBasisJob,
         startDateJob,
         endDateJob} = req.body;
+
+
     try {
         const user = await usersModel.findById(req.user.id);
         if (!user) {
             return res.status(404).json({ msg: "User not found" });
         }
-     
+      console.log(req.body);
         const job = new jobFormModel(
         {contactEmailJob,
         contactPersonJob,

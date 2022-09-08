@@ -12,19 +12,19 @@ const accomodationFormSchema = new mongoose.Schema({
 
     contactPerson: {
         type: String,
-        required: true
+      
     },
     contactNumber: {
         type: Number,
-        required: true
+        
     },
     contactEmail: {
         type: String,
-        required: true
+        
     },
     address: {
         type: String,
-        required: true
+        
 
     }
     ,
@@ -38,12 +38,12 @@ const accomodationFormSchema = new mongoose.Schema({
     },
     accomodationType: {
         type: String,
-        required: true,
+        
         // minlength: 6
     },
     numberOfPersons: {
         type: Number,
-        required: true,
+       
         // minlength: 6
     },
     

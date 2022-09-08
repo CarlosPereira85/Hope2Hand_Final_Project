@@ -37,6 +37,7 @@ router.put("/:id", updateUser);
 
 // ------------Accomodation------------
 router.get("/getaccomodations", getAllAccomodation);
+
 router.post("/volunteerformspage", auth);
 router.post("/volunteerformspage/postaccommodation",auth, postAccomodation);
 router.get("/getuseraccomodations", auth, getUserAccomodations)
